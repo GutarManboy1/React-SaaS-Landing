@@ -66,7 +66,7 @@ const Header = () => {
                 alt="outline"
                 className="relative z-2"
               />
-               <img
+              <img
                 src="./images/bg-outlines-fill.png"
                 width={960}
                 height={380}
