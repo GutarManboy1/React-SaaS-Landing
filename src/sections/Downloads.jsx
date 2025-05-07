@@ -1,5 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { links, logos } from "../constants";
 
 const Downloads = () => {
   return (
@@ -16,7 +17,11 @@ const Downloads = () => {
               </div>
               <p className="body-1 mb-10 max-w-md">Check it out for FREE on your favorite operating system</p>
               <ul className="flex flex-wrap items-center gap-6">
-                {}
+                {links.map(({id, url, icon}) => (
+                  <li key={id} className="download_tech-link">
+                    {url}
+                  </li>
+                ))}
               </ul>
             </div>
           </div>
