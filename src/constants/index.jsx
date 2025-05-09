@@ -56,7 +56,7 @@ export const plans = [
     features: [
       "100MB Cloud storage",
       "100+ prompt templates",
-      "5 projects",
+      "500 projects",
       "24/7 support",
     ],
     icon: "/images/circle.svg",
@@ -85,7 +85,7 @@ export const plans = [
     caption: "Exclusively for teams",
     features: [
       "All Overdrive features",
-      "10TB additional storage",
+      "100TB additional storage",
       "50% off per member",
       "Real-time collaboration",
     ],
@@ -187,7 +187,7 @@ export const testimonials = [
     role: "Cyberleap",
     avatarUrl: "/images/testimonials/alicia-barker.png",
     comment:
-      "The analytics feature is like having a personal fortune teller. It's been instrumental in guiding our business decisions.",
+      "The analytics feature is like having a personal fortune teller. It said I was gonna die in 5 years.",
   },
   {
     id: "4",
@@ -195,7 +195,7 @@ export const testimonials = [
     role: "Floclips",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Switched to Xora last month, and I'm already seeing results. I wish I had friends!",
   },
   {
     id: "5",
@@ -203,7 +203,7 @@ export const testimonials = [
     role: "Vid capital intl",
     avatarUrl: "/images/testimonials/jim-bradley.png",
     comment:
-      "The efficiency boost is undeniable. This platform has transformed our workflow, forever.",
+      "The efficiency boost is undeniable, I guess. This platform has transformed our workflow, forever.",
   },
 ];
 // export const links = [

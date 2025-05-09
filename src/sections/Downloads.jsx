@@ -1,6 +1,6 @@
 import React from "react";
 import { Element } from "react-scroll";
-import {logos} from "../constants";
+import { logos } from "../constants";
 
 const Downloads = () => {
   return (
@@ -49,7 +49,7 @@ const Downloads = () => {
             </div>
           </div>
           <ul className="mt-24 flex justify-center max-lg:hidden">
-            {logos.map(({id, url, width, height, title}) => (
+            {logos.map(({ id, url, width, height, title }) => (
               <li key={id} className="download_tech-link mx-10">
                 <img src={url} alt={title} width={width} height={height} />
               </li>
